@@ -9,3 +9,10 @@
 
 I would place the automated tests inside a GitHub Action that runs whenever code is pushed to allow bugs and broken functionality to be detected automatically before ever merging or deploying code. It also helps maintain code quality throughout development instead of waiting until the end to test everything manually.
 
+
+## Question 2
+
+### Would you use an end to end test to check if a function is returning the correct output? (yes/no)
+
+No, E2E tests the overall user workflow and interaction with the application, Not a single functions output.
+
