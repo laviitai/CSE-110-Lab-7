@@ -16,3 +16,16 @@ I would place the automated tests inside a GitHub Action that runs whenever code
 
 No, E2E tests the overall user workflow and interaction with the application, Not a single functions output.
 
+
+## Question 3
+
+### What is the difference between navigation and snapshot mode?
+
+Navigation mode analyzes a webpage immediately after it loads and provides an overall performance analysis of the page load process, while Snapshot mode analyzes the webpage in its current state and is mainly useful for detecting accessibility issues.
+
+## Question 4
+
+### Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
+
+Based on the Lighthouse report, three ways to improve the CSE 110 shop site would be to add accessible names and labels for buttons and custom controls (Lighthouse Errors: “Buttons have an accessible name”, “Form elements have associated labels”), add alt text to images (Lighthouse Error: “Image elements have [alt] attributes ”), and improve page performance by reducing unused JavaScript/CSS and optimizing image delivery (Lighthouse errors: “Reduce unused JavaScript”, “Reduce unused CSS ”, “Improve image delivery”).
+
