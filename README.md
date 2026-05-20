@@ -1,5 +1,7 @@
 # Lab 7 - Itai Lavi
-## Question 1
+
+## Expose:
+### Question 1
 
 ### Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
@@ -10,20 +12,23 @@
 I would place the automated tests inside a GitHub Action that runs whenever code is pushed to allow bugs and broken functionality to be detected automatically before ever merging or deploying code. It also helps maintain code quality throughout development instead of waiting until the end to test everything manually.
 
 
-## Question 2
+### Question 2
 
 ### Would you use an end to end test to check if a function is returning the correct output? (yes/no)
 
 No, E2E tests the overall user workflow and interaction with the application, Not a single functions output.
 
+### screenshot of functioning code in ScreenShots Folder
 
-## Question 3
+## Eplore
+
+### Question 3
 
 ### What is the difference between navigation and snapshot mode?
 
 Navigation mode analyzes a webpage immediately after it loads and provides an overall performance analysis of the page load process, while Snapshot mode analyzes the webpage in its current state and is mainly useful for detecting accessibility issues.
 
-## Question 4
+### Question 4
 
 ### Name three things we could do to improve the CSE 110 shop site based on the Lighthouse results.
 
